@@ -1,0 +1,7 @@
+This program is an MPI-OpenMP parallel program that uses two processes (rank 0 and rank 1) to find matching between objects and pictures. It first reads an input file containing the pictures and objects information, then it distributes the work between the two ranks. The master (rank 0) process takes care of searching for the matching in a subset of the pictures (numPicturesForMaster), while the worker (rank 1) process takes care of searching for the matching in the remaining subset of pictures (numPicturesForWorker).
+
+After the master process finishes searching for the matching, it sends the pictures and objects information to the worker process. The worker process then searches for the matching in its subset of pictures and sends the results back to the master process.
+
+Finally, the master process merges the results obtained from both subsets of pictures and writes them to an output file.
+
+OpenMP is used to parallelize the loop that searches for the matching in the subset of pictures assigned to the master process. The number of threads used for this parallelization is defined by the NUM_THREADS constant.
