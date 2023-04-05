@@ -1,5 +1,4 @@
 Name: Yahya Saad
-ID: 322944869 
 ==Submatrix-Search-For-Pircure-Object==
 This project deals with a set of Pictures and Objects of different sizes. Each member of the matrix represents a "color". The range of possible colors is [1, 100]. Position(I, J) defines a coordinate of the upper left corner of the Object into Picture.
 
