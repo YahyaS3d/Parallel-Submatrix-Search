@@ -16,6 +16,7 @@ this project has 2 starter points:
 2- MyParallel: contains the files to start the parallel solution, contains full explaination how the solution got parallel 
 
 ==How to run?== 
+in termenal 
 -cd into the folder to make a run 
 -compile: make all 
 -run: make run 
