@@ -1,5 +1,5 @@
 Authored by Yahya Saad
-==Submatrix-Search-For-Pircure-Object==
+==Submatrix Search For Pircure Object==
 This project deals with a set of Pictures and Objects of different sizes. Each member of the matrix represents a "color". The range of possible colors is [1, 100]. Position(I, J) defines a coordinate of the upper left corner of the Object into Picture.
 
 For each pair of overlapping members p and o of the Picture and Object, the program calculates a relative difference. The total difference is defined as an average of all relative differences for all overlapping members for given Position(I, J) of the Object into Picture. We call it Matching(I, J).
